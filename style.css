@@ -55,7 +55,6 @@ main {
 }
 
 .social-links {
-  margin-top: 25px;
   border: 2px solid whitesmoke;
   border-radius: 50px;
   display: flex;
@@ -91,6 +90,7 @@ main {
   padding: 8px 16px;
   background-color: black;
   color: whitesmoke;
+  border-radius: 1px;
 }
 
 .tab button:hover {
@@ -137,7 +137,13 @@ h2 {
   }
 
   .profile-section-container {
+    margin-top: 25px;
+    align-items: center;
     width: 1000px;
     color: black;
+  }
+
+  .tabcontent {
+    margin-top: 25px;
   }
 }

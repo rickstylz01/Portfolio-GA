@@ -21,6 +21,7 @@ video {
 }
 
 .image-container {
+  margin-top: 25px;
   position: relative;
   display: inline-block;
   height: 304px;
@@ -122,6 +123,7 @@ h2 {
   color: black;
 }
 
+/* --Desktop View-- */
 @media screen and (min-width: 1440px) {
   main {
     width: 1000px;
@@ -132,8 +134,8 @@ h2 {
   }
 
   .image-container {
-    height: 410px;
-    width: 410px;
+    height: 335px;
+    width: 335px;
   }
 
   .profile-section-container {
@@ -144,6 +146,6 @@ h2 {
   }
 
   .tabcontent {
-    margin-top: 25px;
+    margin-top: 5px;
   }
 }

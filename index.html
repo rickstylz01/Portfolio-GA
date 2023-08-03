@@ -63,15 +63,37 @@
       </div>
 
       <div class="profile-section-container">
-        <h2>About Me</h2>
+        <!-- I got this example from w3 schools (https://www.w3schools.com/howto/howto_js_tabs.asp) -->
+        <div class="tab">
+          <button class="tablinks" onclick="openSection(event, 'AboutMe')">
+            About Me
+          </button>
+          <button class="tablinks" onclick="openSection(event, 'Accolades')">
+           Accolades
+          </button>
+          <button class="tablinks" onclick="openSection(event, 'Connect')">
+            Connect
+          </button>
+        </div>
 
-        <p>
-          Hello! I'm Rick, a collaborative web developer who loves creating captivatig websites and applications.  With a background in back-end development and experience with freelance clients, I enjoy adding special effects to make projects stand out.
-          <br>
-          Beyond coding, I find joy in physical activities like breakdancing and recreational sports. Movies, food, and traveling also ignite my passion for diverse experiences and storytelling.
-          <br>
-          Let's connect and bring ideas to life together. I'm always happy to meet new people and embark on exciting projects.
-        </p>
+        <div id="AboutMe" class="tabcontnet">
+          <h2>About Me</h2>
+          <p>
+            Hello! I'm Rick, a collaborative web developer who loves creating
+            captivatig websites and applications. With a background in back-end
+            development and experience with freelance clients, I enjoy adding
+            special effects to make projects stand out.
+            <br />
+            Beyond coding, I find joy in physical activities like breakdancing and
+            recreational sports. Movies, food, and traveling also ignite my
+            passion for diverse experiences and storytelling.
+            <br />
+            Let's connect and bring ideas to life together. I'm always happy to
+            meet new people and embark on exciting projects.
+          </p>
+        </div>
+
+        
       </div>
     </main>
     <footer></footer>

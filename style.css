@@ -76,6 +76,15 @@ main {
   color: whitesmoke;
 }
 
+.profile-section-container {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: white;
+}
+
 @media screen and (min-width: 1440px) {
   main,
   .social-links {
@@ -85,5 +94,10 @@ main {
   .image-container {
     height: 410px;
     width: 410px;
+  }
+
+  .profile-section-container {
+    width: 1000px;
+    color: whitesmoke;
   }
 }

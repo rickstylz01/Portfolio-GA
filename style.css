@@ -77,6 +77,11 @@ main {
 }
 
 @media screen and (min-width: 1440px) {
+  main,
+  .social-links {
+    width: 410px;
+  }
+
   .image-container {
     height: 410px;
     width: 410px;

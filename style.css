@@ -80,9 +80,15 @@ main {
 .profile-section-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 /* tab section */
+.tab {
+  display: flex;
+  flex-direction: column;
+}
+
 .tab button {
   border: none;
   outline: none;
@@ -143,6 +149,10 @@ h2 {
     width: 312px;
     display: flex;
     justify-content: center;
+  }
+
+  .tab {
+    flex-direction: row;
   }
 
   .profile-section-container {

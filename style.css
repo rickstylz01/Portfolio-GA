@@ -16,8 +16,9 @@ video {
 }
 
 .name {
-  margin-bottom: 8px;
+  margin-top: 10px;
   color: whitesmoke;
+  border-bottom: 1px groove whitesmoke;
 }
 
 .image-container {
@@ -138,14 +139,16 @@ h2 {
     width: 335px;
   }
 
+  .name {
+    width: 312px;
+    display: flex;
+    justify-content: center;
+  }
+
   .profile-section-container {
-    margin-top: 25px;
+    margin-top: 15px;
     align-items: center;
     width: 1000px;
     color: black;
-  }
-
-  .tabcontent {
-    margin-top: 5px;
   }
 }

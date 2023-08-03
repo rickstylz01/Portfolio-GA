@@ -31,7 +31,7 @@ video {
   padding: 0;
 }
 
-img {
+#profile-pic {
   border-radius: 220px;
   height: inherit;
   width: inherit;

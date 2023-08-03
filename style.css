@@ -25,5 +25,16 @@ img {
 main {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-container {
+  margin-top: 8px;
+  border: 2px solid whitesmoke;
+  display: inline-block;
+}
+
+.link-container a {
   color: whitesmoke;
 }

@@ -76,13 +76,20 @@ main {
   color: whitesmoke;
 }
 
+#AboutMe {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 3px solid whitesmoke;
+  padding: 8px;
+  border-radius: 5px;
+}
+
 .profile-section-container {
   display: flex;
   flex-direction: column;
 }
 
 h2 {
-  color: white;
+  color: black;
 }
 
 @media screen and (min-width: 1440px) {
@@ -101,6 +108,6 @@ h2 {
 
   .profile-section-container {
     width: 1000px;
-    color: whitesmoke;
+    color: black;
   }
 }

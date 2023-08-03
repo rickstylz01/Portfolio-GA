@@ -18,4 +18,12 @@ video {
 img {
   border: 3px solid whitesmoke;
   border-radius: 250px;
+  height: 450px;
+  width: 450px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
 }

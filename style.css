@@ -86,7 +86,10 @@ h2 {
 }
 
 @media screen and (min-width: 1440px) {
-  main,
+  main {
+    width: 1000px;
+  }
+
   .social-links {
     width: 410px;
   }

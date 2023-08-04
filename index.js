@@ -12,10 +12,15 @@ function openSection(evt, sectionTitle) {
   // Get all elements with class="tablinks" and remove the class "active"
   tablinks = document.getElementsByClassName("tablinks");
   for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
+    tablinks[i].classList.remove("active");
+    // tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
   document.getElementById(sectionTitle).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+// Set the default tab to be active when the page loads
+document.getElementById("AboutMe").style.display = "block";
+document.getElementsByClassName("tablinks")[0].classList.add("active");

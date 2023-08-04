@@ -111,6 +111,18 @@ main {
   color: black;
 }
 
+.tab button:first-child {
+  border-top-left-radius: 10px;
+}
+
+.tab button:last-child {
+  border-top-right-radius: 10px;
+}
+
+button {
+  font-family: 'Poiret One';
+}
+
 .tabcontent {
   background-color: rgba(255, 255, 255, 0.5);
   border-left: 3px solid whitesmoke;
@@ -124,6 +136,10 @@ main {
 @keyframes fadeEffect {
   from {opacity: 0;}
   to {opacity: 1;}
+}
+
+h1, h2 {
+  font-family: 'Play';
 }
 
 h2 {
@@ -174,6 +190,10 @@ h2 {
     align-items: center;
     width: 1000px;
     color: black;
+  }
+
+  #AboutMe p {
+    font-size: 17px;
   }
 
   .certificates-container {

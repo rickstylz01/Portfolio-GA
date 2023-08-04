@@ -99,6 +99,7 @@ main {
   background-color: black;
   color: whitesmoke;
   border-radius: 1px;
+  font-family: 'Play';
 }
 
 .tab button:hover {
@@ -173,6 +174,13 @@ h2 {
   .image-container {
     height: 335px;
     width: 335px;
+  }
+
+  .quote {
+    color: whitesmoke;
+    font-weight: 500;
+    margin-top: 15px;
+    font-family: 'Play';
   }
 
   .name {

@@ -161,4 +161,19 @@ h2 {
     width: 1000px;
     color: black;
   }
+
+  .certificates-container {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .ra-certificate-img,
+  .google-certificate-img {
+    height: 494px;
+  }
+
+  .accolades-header {
+    align-self: flex-start;
+  }
 }

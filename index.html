@@ -53,8 +53,8 @@
       </div>
 
       <div class="image-container container-fluid">
-        <img src="./assets/GA-portfolio-pic.jpeg" alt="Rick Maya breakdancing in
-        public" ">
+        <img id="profile-pic" src="./assets/GA-portfolio-pic.jpeg" alt="Rick
+        Maya breakdancing in public" ">
         <div class="overlay"></div>
       </div>
 
@@ -80,7 +80,7 @@
           <h2>About Me</h2>
           <p>
             Hello! I'm Rick, a collaborative web developer who loves creating
-            captivatig websites and applications. With a background in back-end
+            captivating websites and applications. With a background in back-end
             development and experience with freelance clients, I enjoy adding
             special effects to make projects stand out.
             <br />
@@ -96,13 +96,58 @@
         </div>
 
         <div id="Accolades" class="tabcontent">
-          <h2>Accolades</h2>
-          <p>Work in progress</p>
+          <div class="accolades-header">
+            <h2>Accolades</h2>
+          </div>
+
+          <div class="certificates-container">
+            <div class="google-certificate-container">
+              <img
+                class="google-certificate-img"
+                src="./assets/google-scholarship-certificate.jpg"
+                alt="completion certificate for a Google scholarship program"
+              />
+            </div>
+
+            <div class="ra-certificate-container">
+              <img
+                class="ra-certificate-img"
+                src="./assets/ra-completion-certificate.png"
+                alt="completion certificate for RA training program"
+              />
+            </div>
+          </div>
         </div>
 
         <div id="Connect" class="tabcontent">
           <h2>Connect</h2>
-          <p>Work in progress</p>
+
+          <div class="form-container">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
         </div>
       </div>
     </main>

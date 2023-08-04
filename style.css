@@ -16,11 +16,13 @@ video {
 }
 
 .name {
-  margin-bottom: 8px;
+  margin-top: 10px;
   color: whitesmoke;
+  border-bottom: 1px groove whitesmoke;
 }
 
 .image-container {
+  margin-top: 25px;
   position: relative;
   display: inline-block;
   height: 304px;
@@ -29,7 +31,7 @@ video {
   padding: 0;
 }
 
-img {
+#profile-pic {
   border-radius: 220px;
   height: inherit;
   width: inherit;
@@ -78,9 +80,15 @@ main {
 .profile-section-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 /* tab section */
+.tab {
+  display: flex;
+  flex-direction: column;
+}
+
 .tab button {
   border: none;
   outline: none;
@@ -122,6 +130,21 @@ h2 {
   color: black;
 }
 
+.certificates-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.google-certificate-img {
+  height: 282px;
+}
+
+.ra-certificate-img {
+  height: 219px;
+}
+
+/* --Desktop View-- */
 @media screen and (min-width: 1440px) {
   main {
     width: 1000px;
@@ -132,18 +155,49 @@ h2 {
   }
 
   .image-container {
-    height: 410px;
-    width: 410px;
+    height: 335px;
+    width: 335px;
+  }
+
+  .name {
+    width: 312px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .tab {
+    flex-direction: row;
   }
 
   .profile-section-container {
-    margin-top: 25px;
+    margin-top: 15px;
     align-items: center;
     width: 1000px;
     color: black;
   }
 
-  .tabcontent {
-    margin-top: 25px;
+  .certificates-container {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .ra-certificate-img,
+  .google-certificate-img {
+    height: 494px;
+  }
+
+  .ra-certificate-img {
+    width: 500px;
+  }
+
+  .accolades-header {
+    align-self: flex-start;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 355px;
   }
 }

@@ -130,6 +130,20 @@ h2 {
   color: black;
 }
 
+.certificates-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.google-certificate-img {
+  height: 282px;
+}
+
+.ra-certificate-img {
+  height: 219px;
+}
+
 /* --Desktop View-- */
 @media screen and (min-width: 1440px) {
   main {
@@ -173,7 +187,17 @@ h2 {
     height: 494px;
   }
 
+  .ra-certificate-img {
+    width: 500px;
+  }
+
   .accolades-header {
     align-self: flex-start;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 355px;
   }
 }

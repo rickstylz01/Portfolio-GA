@@ -4,7 +4,6 @@ body {
   flex-direction: column;
 }
 
-/* chatGPT helped me to place the video loop in the background */
 video {
   position: fixed;
   top: 0;
@@ -167,6 +166,28 @@ h2 {
 
 .ra-certificate-img {
   height: 219px;
+}
+
+/* --Tablet view-- */
+@media screen and (min-width: 768px) {
+  .social-links {
+    width: 410px;
+  }
+
+  .tab {
+    flex-direction: row;
+    margin: auto;
+  }
+
+  .certificates-container {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .ra-certificate-img {
+    height: 282px;
+  }
 }
 
 /* --Desktop View-- */

@@ -1,4 +1,3 @@
-// code was referenced from (https://www.w3schools.com/howto/howto_js_tabs.asp)
 function openSection(evt, sectionTitle) {
   // Declare all variables
   let i, tabcontent, tablinks;

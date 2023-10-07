@@ -22,3 +22,16 @@ function openSection(evt, sectionTitle) {
 // Set the default tab to be active when the page loads
 document.getElementById("AboutMe").style.display = "block";
 document.getElementsByClassName("tablinks")[0].classList.add("active");
+
+document.addEventListener("DOMContentLoaded", function() {
+  const bgVid = document.querySelector("#background-video");
+
+  if (bgVid) {
+    document.body.addEventListener("click", function() {
+      if (bgVid.paused) {
+        bgVid.play();
+      }
+    })
+  }
+})
+

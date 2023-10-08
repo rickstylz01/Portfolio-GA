@@ -142,11 +142,11 @@ button {
   animation: fadeEffect 1s;
 }
 
-#carousel-description-photo-fiesta a {
-  color: olivedrab;
+.project-link {
+  color: darkgreen;
 }
 
-#carousel-description-photo-fiesta a:visited {
+.project-link-active:visited {
   color: darkolivegreen;
 }
 
@@ -205,6 +205,18 @@ h2 {
 
   .photo-fiesta-image {
     height: 485px;
+  }
+
+  #carousel-photo-fiesta,
+  #spring-mini-project,
+  #tic-tac-toe-project,
+  #AboutMe{
+    width: 598px;
+  }
+
+  #lib-erd-image,
+  #tic-tac-toe-image {
+    height: 535px;
   }
 
   .certificates-container {
@@ -272,6 +284,11 @@ h2 {
 
   .photo-fiesta-image {
     height: 700px;
+  }
+
+  #lib-erd-image,
+  #tic-tac-toe-image {
+    height: 535px;
   }
 
   .certificates-container {

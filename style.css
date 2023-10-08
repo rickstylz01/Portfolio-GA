@@ -142,6 +142,18 @@ button {
   animation: fadeEffect 1s;
 }
 
+#carousel-description-photo-fiesta a {
+  color: olivedrab;
+}
+
+#carousel-description-photo-fiesta a:visited {
+  color: darkolivegreen;
+}
+
+.photo-fiesta-image {
+  height: 380px;
+}
+
 @keyframes fadeEffect {
   from {opacity: 0;}
   to {opacity: 1;}
@@ -154,6 +166,8 @@ h1, h2 {
 h2 {
   color: black;
 }
+
+
 
 .certificates-container {
   display: flex;
@@ -189,10 +203,18 @@ h2 {
     border-top-right-radius: 10px;
   }
 
+  .photo-fiesta-image {
+    height: 485px;
+  }
+
   .certificates-container {
     display: flex;
     flex-direction: row;
     gap: 8px;
+  }
+
+  #tech-stack-photo-fiesta {
+    font-size: 16px;
   }
 
   .ra-certificate-img {
@@ -244,6 +266,14 @@ h2 {
     border-top-right-radius: 10px;
   }
 
+  #carousel-photo-fiesta {
+    width: 650px;
+  }
+
+  .photo-fiesta-image {
+    height: 700px;
+  }
+
   .certificates-container {
     display: flex;
     flex-direction: row;
@@ -261,6 +291,10 @@ h2 {
 
   .accolades-header {
     align-self: flex-start;
+  }
+
+  #tech-stack-photo-fiesta {
+    font-size: 16px;
   }
 
   .form-container {
